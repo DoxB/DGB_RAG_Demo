@@ -20,13 +20,20 @@
 </table>
 
 <br />
+
+## **구현 환경**
+- CPU: i5-13600k
+- RAM: 64GB
+- GPU: RTX-4070TI
+- LLM: llama3-8B-Q4 (한국어)
+- Embedding: bge-m3
+- VectorDB: Qdrant
+
 <br />
 
 ## **데모 아키텍처**
 ![alt text](assets/rag.png)
 
-
-<br />
 <br />
 
 ## **데모 사이트**
