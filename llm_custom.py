@@ -37,6 +37,10 @@ def rag_ans(rag_func, question):
         당신은 유용한 AI 보험설계사입니다. 사용자의 질의에 대해 친절하고 정확하게 답변해야 합니다.
         '''
 
+        question_templete = f'''
+        {question}
+        '''
+
     messages = [
         {"role": "system", "content": f"{PROMPT}"},
         {"role": "user", "content": f"{question_templete}"}
